@@ -27,15 +27,28 @@ console.log(frase.length);
 */
 
 /*
-//Exercício 3
-//● Crie um array com pelo menos 5 raças de cachorro
-//● Peça para o usuário inserir um número de 0 a 4
-//● Imprima no console a raça correspondente à posição escolhida pelo usuário
+//Exercício 3 - ● Crie um array com pelo menos 5 raças de cachorro
+              //● Peça para o usuário inserir um número de 0 a 4
+              //● Imprima no console a raça correspondente à posição escolhida pelo usuário
 
-var cachorros = ["vira-lata", "poodle", "pinscher", "greyhound", "bulldog"];
-let number = Number(prompt('Digite um número de 0 a 4'));
-console.log('A raça correspondente ao número digitdado é: '+cachorros[number]);*/
+var racas = ["vira-lata", "pinscher", "poodle", "greyhound", "bulldog"];
+var posicao = Number(prompt('Informe um número de 0 a 4:'));
+racas[posicao] === undefined ? //se a raça na posição indicada não retornar valor nenhum no array (undefined) retorna mensagem abaixo
+console.log('Digite um numero de 0 a 4'): //dois pontos funcionam como um 'se não'
+console.log(racas[posicao]);
+*/
+
 /*
+//Exercício 3 (solução alternativa)
+
+const racas = ["pug","vira-lata","golden","veadeiro","pastor-alemao"]
+
+const indiceraca = Number(prompt("digite um numero de 1 a 5"))
+racas[indiceraca -1] === undefined ?  //diminui 1 de cada valor informado na variável para fechar com de 1 a 5
+console.log("voce deve digitar um numero entre 1 e 5"): 
+console.log(racas[indiceraca -1]);
+*/
+
 
 /*
 //Exercício 4
