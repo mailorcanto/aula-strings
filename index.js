@@ -36,6 +36,9 @@ var posicao = Number(prompt('Informe um número de 0 a 4:'));
 racas[posicao] === undefined ? //se a raça na posição indicada não retornar valor nenhum no array (undefined) retorna mensagem abaixo
 console.log('Digite um numero de 0 a 4'): //dois pontos funcionam como um 'se não'
 console.log(racas[posicao]);
+console.log('Tem a raça vira-lata?',racas.includes("vira-lata"),'Qual é a posição?',racas.indexOf('vira-lata'));
+const novaRaca = racas.push(prompt('Digite uma nova raça'));
+console.log(racas);
 */
 
 /*
