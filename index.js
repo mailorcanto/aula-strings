@@ -80,7 +80,7 @@ console.log(valores.length);
 let array 
 console.log('a. ', array) //retorna resposta sem valores, já que não foram definidos na criação do array (undefined)
 
-array = null /
+array = null
 console.log('b. ', array) //retorna nulo (null), ou seja, array sem informações
 
 array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
