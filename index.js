@@ -160,7 +160,7 @@ tarefa3 = prompt('Informe terceira tarefa');
 listaDeTarefas.push(tarefa1, tarefa2, tarefa3);
 console.log(listaDeTarefas);
 var indice = prompt("Informe tarefa já realizada");
-listaDeTarefas.splice(indice,1);
+listaDeTarefas.splice(indice -1,1);
 console.log(listaDeTarefas);
 */
 
