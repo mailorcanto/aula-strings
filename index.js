@@ -131,7 +131,8 @@ console.log(frase2);
 
 var comidas = ["pizza", "x-bacon", "lasanha", "churrasco", "mousse"];
 console.log(comidas);
-console.log('Essas são minhas comidas preferidas: ', comidas); //não esquecer de utilizar vírgula ao invés de + para melhor visualização de elementos do array
+//console.log('Essas são minhas comidas preferidas: ', comidas); //não esquecer de utilizar vírgula ao invés de + para melhor visualização de elementos do array
+console.log(`Essas são minhas comidas preferidas: \n${comidas[0]}, \n${comidas[1]}, \n${comidas[2]}, \n${comidas[3]}, \n${comidas[4]}.`) //um índice abaixo do outro
 var comidaUsuario = prompt('Qual é sua comida preferida? ');
 comidas.splice(1, 1, comidaUsuario); //a partir do índice 1 (segunda comida) REMOVE 1 (ele mesmo) e SUBSTITUI pela comida informada pelo usuário
 console.log('Essas são minhas comidas preferidas: ', comidas)
